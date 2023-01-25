@@ -3,8 +3,12 @@ body {
 	font-family: sans-serif;
 }
 
+ol {
+	text-align: center;
+}
+
 .iframe {
-  border: none;
-  width: 95%;
-  height: 350px;
+	border: none;
+	width: 95%;
+	height: 350px;
 }
