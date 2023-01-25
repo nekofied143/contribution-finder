@@ -1,3 +1,5 @@
 iframe[src="https://docs.google.com/spreadsheets/d/1uoRxLTXRjgQfcwx9n_8WOc1JaOunz5qFYoSV9FbhrnA/edit?usp=sharing&embedded=true&rm=demo&amp;single=true&amp;widget=true&amp;headers=false;"] {
   border: none;
+  width: 95%;
+  height: 350px;
 }
