@@ -18,6 +18,26 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.legends-container {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  cursor: pointer; /* Add cursor style to indicate it's clickable */
+}
+
+.legends-content {
+  display: none; /* Hide the legends content by default */
+}
+
+.legends-container.active .legends-content {
+  display: block; /* Show the legends content when .legends-container has .active class */
+}
+
+.legends-container.active strong::after {
+  content: ":";
+}
+
 .search-container {
   text-align: right;
   margin-bottom: 20px;
@@ -52,6 +72,7 @@ body {
 }
 
 #searchInput {
+  max-width: 90%;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -69,4 +90,22 @@ button {
 
 button:hover {
   background-color: #45a049;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  .search-container {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  #searchInput {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 }

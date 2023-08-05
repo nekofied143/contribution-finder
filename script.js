@@ -339,18 +339,44 @@ const data = [
 ];
 
 const searchInput = document.getElementById('searchInput');
+const legendsContainer = document.querySelector('.legends-container');
 const headsData = document.getElementById('headsData');
 const contributionData = document.getElementById('contributionData');
 const loanBalanceData = document.getElementById('loanBalanceData');
 const remarksData = document.getElementById('remarksData');
 
+// Add an event listener to the "Legends:" text to toggle the display of legends
+legendsContainer.addEventListener('click', () => {
+  toggleLegends();
+});
+
+// Add a separate event listener for the search bar to stop event propagation
+searchInput.addEventListener('click', (event) => {
+  event.stopPropagation(); // Stop the click event from propagating to parent elements
+});
+
+function toggleLegends() {
+  const legendsText = document.querySelector('.legends-text');
+  const legendsContent = document.querySelector('.legends-content');
+
+  legendsContent.style.display = legendsContent.style.display === 'block' ? 'none' : 'block';
+  legendsText.textContent = legendsContent.style.display === 'block' ? 'Hide Legends:' : 'Show Legends:';
+}
+
 function search() {
   const searchTerm = searchInput.value.trim().toLowerCase();
-  const filteredData = data.find(item => item.name.toLowerCase().includes(searchTerm));
+
+  if (!searchTerm) {
+    clearData();
+    return;
+  }
+
+  const filteredData = data.find(item => item.name.toLowerCase() === searchTerm);
+
   if (filteredData) {
     displayData(filteredData);
   } else {
-    clearData();
+    displayError("No data exist!");
   }
 }
 
@@ -366,4 +392,11 @@ function clearData() {
   contributionData.textContent = '';
   loanBalanceData.textContent = '';
   remarksData.textContent = '';
+}
+
+function displayError(message) {
+  headsData.textContent = message;
+  contributionData.textContent = message;
+  loanBalanceData.textContent = message;
+  remarksData.textContent = message;
 }
