@@ -1,50 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contribution Information</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-  <div class="container">
-    <div class="legends-container">
-      <p class="legends-text">Show Legends:</p>
-      <div class="legends-content">
-        <p><strong>NO. OF HEAD/S:</strong> It is the head/s availed by the person who joined the sinking fund.</p>
-        <p><strong>CONTRIBUTION:</strong> It represents the amount contributed by the individual.</p>
-        <p><strong>TOTAL LOAN BALANCE:</strong> It shows the remaining loan balance of the person.</p>
-        <p><strong>REMARKS:</strong> It indicates the status of the person, e.g., Complete, In-progress, Not Started, In-Debt.</p>
-
-        <p>NOTE: The data may not be accurate/updated since it will be manually inputted one by one by management so don't hesitate to ask for update in group chat! Thank you for your patience!</p>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contribution Information</title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+   </head>
+   <body>
+      <div class="container">
+      <div class="legends-container">
+         <p class="legends-text">Show Legends:</p>
+         <div class="legends-content">
+            <p><strong>NO. OF HEAD/S:</strong> It is the head/s availed by the individual who joined the sinking fund.</p>
+            <p><strong>CONTRIBUTION:</strong> It represents the amount contributed by the individual.</p>
+            <p><strong>TOTAL LOAN BALANCE:</strong> It shows the remaining loan balance of the individual.</p>
+            <p><strong>REMARKS:</strong> It indicates the status of the person, e.g., Complete, In-progress, Not Started, In-Debt, and Loaned.</p>
+            <p>NOTE: The data may not be accurate/updated since it will be manually inputted one by one by management so don't hesitate to ask for update in group chat! Thank you for your patience!</p>
+            </div
+         </div>
+         <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search by id#...">
+            <button onclick="search()">Search</button>
+         </div>
+         <div class="data-container">
+            <table id="dataTable">
+               <tbody>
+                  <tr>
+                     <th>NO. OF HEAD/S</th>
+                     <td id="headsData">
+                        <!-- NO. OF HEAD/S data will be displayed here -->
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>CONTRIBUTION</th>
+                     <td id="contributionData">
+                        <!-- CONTRIBUTION data will be displayed here -->
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>TOTAL LOAN BALANCE</th>
+                     <td id="loanBalanceData">
+                        <!-- TOTAL LOAN BALANCE data will be displayed here -->
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>REMARKS</th>
+                     <td id="remarksData">
+                        <!-- REMARKS data will be displayed here -->
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
       </div>
-    <div class="search-container">
-      <input type="text" id="searchInput" placeholder="Search by id#...">
-      <button onclick="search()">Search</button>
-    </div>
-    <div class="data-container">
-      <table id="dataTable">
-        <tbody>
-          <tr>
-            <th>NO. OF HEAD/S</th>
-            <td id="headsData"><!-- NO. OF HEAD/S data will be displayed here --></td>
-          </tr>
-          <tr>
-            <th>CONTRIBUTION</th>
-            <td id="contributionData"><!-- CONTRIBUTION data will be displayed here --></td>
-          </tr>
-          <tr>
-            <th>TOTAL LOAN BALANCE</th>
-            <td id="loanBalanceData"><!-- TOTAL LOAN BALANCE data will be displayed here --></td>
-          </tr>
-          <tr>
-            <th>REMARKS</th>
-            <td id="remarksData"><!-- REMARKS data will be displayed here --></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-  <script src="script.js"></script>
-</body>
+      <script src="script.js"></script>
+   </body>
 </html>
