@@ -70,17 +70,3 @@ button {
 button:hover {
   background-color: #45a049;
 }
-
-/* Responsive styles */
-@media only screen and (max-width: 768px) {
-  .search-container {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-
-  #searchInput {
-    width: 100%;
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-}
