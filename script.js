@@ -360,7 +360,7 @@ function toggleLegends() {
   const legendsContent = document.querySelector('.legends-content');
 
   legendsContent.style.display = legendsContent.style.display === 'block' ? 'none' : 'block';
-  legendsText.textContent = legendsContent.style.display === 'block' ? 'Hide Legends:' : 'Show Legends:';
+  legendsText.textContent = legendsContent.style.display === 'block' ? 'Legends ⋎' : 'Legends ≻';
 }
 
 function search() {
