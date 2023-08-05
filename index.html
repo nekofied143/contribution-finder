@@ -1,30 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>CONTRIBUTION FINDER</title>
-	<link rel="stylesheet" type="text/css" href="iframe.css">
-	<script src="https://kit.fontawesome.com/8c8fbbbaeb.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contribution Information</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<i class="active fa-solid fa-search"> CONTRIBUTION FINDER</i>
-	
-	<br>
-	<br>
-	
-		<iframe class="iframe" src="https://docs.google.com/spreadsheets/d/1uoRxLTXRjgQfcwx9n_8WOc1JaOunz5qFYoSV9FbhrnA/edit?usp=sharing&embedded=true&rm=demo&amp;single=true&amp;widget=true&amp;headers=false;"></iframe>
-	<br>
-	<br>
-	
-	<div class="center">
-		<h2>Instructions</h2>
-		<ol>
-			FOR SMARTPHONE DEVICES
-			<li>Open me in your browser(Chrome)</li>
-			<li>Click 3 dots from upper right corner</li>
-			<li>Click the "Desktop site" to enable desktop mode</li>
-		</ol>
-	</div>
+  <div class="container">
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search by name...">
+      <button onclick="search()">Search</button>
+    </div>
+    <div class="data-container">
+      <table id="dataTable">
+        <tbody>
+          <tr>
+            <th>NO. OF HEAD/S</th>
+            <td id="headsData"><!-- NO. OF HEAD/S data will be displayed here --></td>
+          </tr>
+          <tr>
+            <th>CONTRIBUTION</th>
+            <td id="contributionData"><!-- CONTRIBUTION data will be displayed here --></td>
+          </tr>
+          <tr>
+            <th>TOTAL LOAN BALANCE</th>
+            <td id="loanBalanceData"><!-- TOTAL LOAN BALANCE data will be displayed here --></td>
+          </tr>
+          <tr>
+            <th>REMARKS</th>
+            <td id="remarksData"><!-- REMARKS data will be displayed here --></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
