@@ -1,20 +1,27 @@
 // script.js
 const data = [
   {
-    "name": "John Doe",
-    "heads": 3,
-    "contribution": 1500,
-    "total_loan_balance": 500,
-    "remarks": "Active"
+    "name": "kaye",
+    "heads": 2,
+    "contribution": -₱6,800,
+    "total_loan_balance": ₱7,800,
+    "remarks": "IN DEBT OF -6800 PHP"
   },
   {
-    "name": "Jane Smith",
+    "name": "mary cris",
     "heads": 2,
-    "contribution": 1200,
-    "total_loan_balance": 200,
-    "remarks": "Inactive"
+    "contribution": -₱2,450,
+    "total_loan_balance": ₱4,450,
+    "remarks": "IN DEBT OF -2450 PHP"
   },
-  // Add more data as needed
+  {
+    "name": "lorna",
+    "heads": 2,
+    "contribution": ₱2,240,
+    "total_loan_balance": ₱0,
+    "remarks": ""IN-PROGRESS
+AMOUNT TO RECEIVE: ₱2240""
+  },
 ];
 
 const searchInput = document.getElementById('searchInput');
