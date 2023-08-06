@@ -20,7 +20,6 @@
       <div class="container">
          <div class="search-container">
             <input type="text" id="searchInput" placeholder="Search by id#...">
-            <button onclick="search()">Search</button>
          </div>
          <div class="data-container">
             <table id="dataTable">
@@ -32,13 +31,13 @@
                      </td>
                   </tr>
                   <tr>
-                     <th>CONTRIBUTION</th>
+                     <th>CONTRIBUTION (₱)</th>
                      <td id="contributionData">
                         <!-- CONTRIBUTION data will be displayed here -->
                      </td>
                   </tr>
                   <tr>
-                     <th>TOTAL LOAN BALANCE</th>
+                     <th>TOTAL LOAN BALANCE (₱)</th>
                      <td id="loanBalanceData">
                         <!-- TOTAL LOAN BALANCE data will be displayed here -->
                      </td>
@@ -51,6 +50,31 @@
                   </tr>
                </tbody>
             </table>
+         </div>
+      </div>
+      <div class="calculator-container">
+         <h2 class="calculator-text">CONTRIBUTION DATE CALCULATOR ≻</h2>
+         <div class="calculator-content">
+            <p>Your current date contribution as of <span id="currentDate"></span> is <strong><span id="estimatedDate"></span></strong></p>
+            <p>How it's calculated?</p>
+            <p><strong>CONTRIBUTION</strong> divided by <strong>₱10/day</strong> divided by <strong>NO. OF HEAD/S</strong> is equal <strong>TOTAL NUMBER OF DAYS</strong>.</p>
+            <p>Below is your calculation date of your contribution:</p>
+            <strong>
+               <p id="contributionCalculation"></p>
+            </strong>
+            <p>Estimated date: <strong><span id="estimatedDate1"></span></strong></p>
+         </div>
+      </div>
+      <div class="loan-debt-container">
+         <h2 class="loan-debt-text">LOAN/DEBT CALCULATOR ≻</h2>
+         <div class="loan-debt-content">
+            <p>How's your loan/debt calculated?</p>
+            <p>Your <strong>CONTRIBUTION</strong> minus <strong>TOTAL LOAN BALANCE</strong> is equal to <strong>CALCULATED BALANCE</strong>.</p>
+            <p>Below is your calculation of your loan/debt:</p>
+            <strong>
+               <p id="loanDebtCalculation"></p>
+            </strong>
+            <p>Note: If the calculated amount is less than the <strong>contribution</strong> value, then it is to say you have a loan/debt balance.</p>
          </div>
       </div>
       <script src="script.js"></script>
