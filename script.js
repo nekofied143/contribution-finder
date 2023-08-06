@@ -94,9 +94,9 @@ const data = [
   {
     "name": "2023-82742042",
     "heads": 2,
-    "contribution": "₱4,120",
+    "contribution": "₱4,270",
     "total_loan_balance": "₱0",
-    "remarks": "Current month: July"
+    "remarks": "Current month: August."
   },
   {
     "name": "2023-42380641",
