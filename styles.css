@@ -7,8 +7,8 @@ body {
 
 .countdown {
   display: flex;
+  justify-content: space-around;
   float: right;
-  width: 40%;
   font-size: 10px;
 }
 
