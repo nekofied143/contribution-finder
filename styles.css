@@ -9,7 +9,6 @@ body {
   display: flex;
   justify-content: space-around;
   float: right;
-  font-size: 10px;
 }
 
 .legends-container {
