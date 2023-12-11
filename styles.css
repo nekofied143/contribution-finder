@@ -7,8 +7,24 @@ body {
 
 .countdown {
 	display: flex;
-	justify-content: space-evenly;
-	width: 15%;
+	justify-content: space-around;
+	width: 20%;
+}
+
+#year {
+	color: red;
+}
+
+#days {
+	color: cyan;
+}
+
+#hours {
+	color: magenta;
+}
+
+#minutes {
+	color: yellow;
 }
 
 .legends-container {
