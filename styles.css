@@ -5,6 +5,13 @@ body {
 	padding: 0
 }
 
+.countdown {
+  display: flex;
+  float: right;
+  width: 40%;
+  font-size: 10px;
+}
+
 .legends-container {
 	width: 80%;
 	max-width: 1000px;
