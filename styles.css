@@ -6,10 +6,10 @@ body {
 }
 
 .countdown {
-  display: flex;
-  justify-content: space-around;
-  width: 40%;
-  font-size: 5vw;
+	display: flex;
+	justify-content: space-around;
+	width: 25%;
+	float: right;
 }
 
 .legends-container {
@@ -186,7 +186,7 @@ button:hover {
 }
 
 #contributionCalculation {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 #loanDebtCalculation {
