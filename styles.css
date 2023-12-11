@@ -111,33 +111,23 @@ body {
 	margin-right: 10px
 }
 
-button {
-	padding: 8px 16px;
-	background-color: #4caf50;
-	color: white;
-	border: 0;
-	border-radius: 4px;
-	cursor: pointer
-}
-
-button:hover {
-	background-color: #45a049
-}
-
 @media only screen and (max-width:768px) {
 	.search-container {
 		text-align: center;
 		margin-bottom: 10px
 	}
 
-	button {
-		width: 100%
-	}
-
 	#searchInput {
 		width: 100%;
 		margin-right: 0;
 		margin-bottom: 10px
+	}
+
+	.countdown {
+		font-weight: bold;
+		display: flex;
+		justify-content: space-around;
+		width: 25%;
 	}
 }
 
