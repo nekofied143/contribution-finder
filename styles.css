@@ -6,7 +6,7 @@ body {
 }
 
 .countdown {
-	font: bold;
+	font-weight: bold;
 	display: flex;
 	justify-content: space-around;
 	width: 25%;
@@ -25,7 +25,7 @@ body {
 }
 
 #minutes {
-	color: yellow;
+	color: gold;
 }
 
 .legends-container {
