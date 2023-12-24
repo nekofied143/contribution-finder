@@ -10,7 +10,6 @@ body {
 	display: flex;
 	justify-content: space-between;
 	width: 25%;
-	padding: 10px;
 }
 
 .time small {
@@ -131,6 +130,9 @@ body {
 	.countdown {
 		font-weight: bold;
 		justify-content: space-around;
+	}
+
+	.time small {
 		padding: 10px;
 	}
 }
