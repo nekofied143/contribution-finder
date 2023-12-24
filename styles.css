@@ -131,7 +131,7 @@ body {
 	.countdown {
 		font-weight: bold;
 		justify-content: space-around;
-		padding: inherit;
+		padding: 10px;
 	}
 }
 
