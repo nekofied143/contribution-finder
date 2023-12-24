@@ -9,7 +9,7 @@ body {
 	font-weight: bold;
 	display: flex;
 	justify-content: space-between;
-	width: 25%;
+	padding: inherit;
 }
 
 .time small {
@@ -130,7 +130,7 @@ body {
 	.countdown {
 		font-weight: bold;
 		justify-content: space-around;
-		width: 25%;
+		padding: inherit;
 	}
 }
 
