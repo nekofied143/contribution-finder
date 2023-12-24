@@ -10,6 +10,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	width: 25%;
+	padding: 10px;
 }
 
 .time small {
