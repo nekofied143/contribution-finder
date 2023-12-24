@@ -9,7 +9,7 @@ body {
 	font-weight: bold;
 	display: flex;
 	justify-content: space-between;
-	padding: inherit;
+	width: 25%;
 }
 
 .time small {
