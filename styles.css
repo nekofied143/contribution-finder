@@ -13,10 +13,6 @@ body {
 	text-align: center;
 }
 
-.time {
-	padding: 10px;
-}
-
 .time small {
 	color: black;
 }
@@ -135,7 +131,6 @@ body {
 	.countdown {
 		font-weight: bold;
 		justify-content: center;
-		padding: 10px;
 		display: flex;
 		justify-content: space-evenly;
 		text-align: center;
