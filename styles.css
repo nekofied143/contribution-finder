@@ -9,7 +9,7 @@ body {
 .countdown {
 	font-weight: bold;
 	display: flex;
-	justify-content: center space-between;
+	justify-content: space-between;
 	text-align: center;
 }
 
