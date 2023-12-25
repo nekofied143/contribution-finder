@@ -18,6 +18,7 @@ body {
 
 #year {
 	color: red;
+	padding-left: 10px;
 }
 
 #days {
@@ -131,6 +132,8 @@ body {
 		font-weight: bold;
 		justify-content: center;
 		padding: 10px;
+		display: flex;
+		justify-content: space-evenly;
 	}
 
 	.time small {
