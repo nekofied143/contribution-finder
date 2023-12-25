@@ -9,6 +9,7 @@ body {
 	font-weight: bold;
 	display: flex;
 	justify-content: center;
+	padding: 5px;
 }
 
 .time small {
