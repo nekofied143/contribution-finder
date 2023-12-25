@@ -8,7 +8,8 @@ body {
 .countdown {
 	font-weight: bold;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
+	justify-content: center;
 }
 
 .time small {
@@ -128,7 +129,7 @@ body {
 
 	.countdown {
 		font-weight: bold;
-		justify-content: space-between;
+		justify-content: center;
 		padding: 10px;
 	}
 
