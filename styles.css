@@ -2,14 +2,14 @@ body {
 	font-family: Arial, sans-serif;
 	background-color: #f2f2f2;
 	margin: 0;
-	padding: 0
+	padding: 0;
 	position: relative; /* Added position relative to position the text */
 }
 
 .countdown {
 	font-weight: bold;
 	display: flex;
-	justify-content: center;
+	justify-content: center space-between;
 	text-align: center;
 }
 
