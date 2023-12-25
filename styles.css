@@ -11,7 +11,6 @@ body {
 	justify-content: space-evenly;
 	justify-content: center;
 	text-align: center;
-	padding: 10px;
 }
 
 .time small {
@@ -20,19 +19,22 @@ body {
 
 #year {
 	color: red;
-	padding-right: 10px;
+	padding: 2.5px;
 }
 
 #days {
 	color: cyan;
+	padding: 2.5px;
 }
 
 #hours {
 	color: magenta;
+	padding: 2.5px;
 }
 
 #minutes {
 	color: gold;
+	padding: 2.5px;
 }
 
 .legends-container {
