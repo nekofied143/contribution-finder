@@ -9,7 +9,6 @@ body {
 	font-weight: bold;
 	display: flex;
 	justify-content: space-between;
-	width: 25%;
 }
 
 .time small {
