@@ -1,17 +1,16 @@
 {
    "participants": [
      {
-       "name": "2023-10231996",
+       "name": "0",
        "heads": 1,
        "contribution": 0,
        "total_loan_balance": 0
      },
      {
-       "name": "2024-10231996",
+       "name": "0",
        "heads": 2,
-       "contribution": 5000,
-       "total_loan_balance": 1000
+       "contribution": 0,
+       "total_loan_balance": 0
      }
    ]
 }
- 
