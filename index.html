@@ -61,31 +61,30 @@
             <p>SELECT DATE: <input type="text" id="contributionEndDate" class="date-input" placeholder="MM/DD/YYYY"></p>
             <p>CALCULATED AMOUNT: <span id="calculatedAmount"></span></p>
          </div>
-      </div>
+      </div><hr>
       <div class="calculator-container">
          <h3 class="calculator-text">CONTRIBUTION DATE CALCULATOR ≻</h3>
          <div class="calculator-content">
-            <p>Your current date contribution as of <span id="currentDate"></span> is <strong><span id="estimatedDate"></span></strong></p>
+            <p>Your current date contribution as of <span id="currentDate"></span> is <strong><span id="estimatedDate"></span></strong></p><hr>
             <p>How it's calculated?</p>
             <p><strong>CONTRIBUTION</strong> divided by <strong>₱10/day</strong> divided by <strong>NO. OF HEAD/S</strong> is equal <strong>TOTAL NUMBER OF DAYS</strong>.</p>
             <p>Below is your calculation date of your contribution:</p>
             <p id="contributionCalculation"></p>
             <p>Estimated date: <strong><span id="estimatedDate1"></span></strong></p>
          </div>
-      </div>
+      </div><hr>
       <div class="loan-debt-container">
          <h3 class="loan-debt-text">LOAN/DEBT CALCULATOR ≻</h3>
          <div class="loan-debt-content">
             <p>How's your loan/debt calculated?</p>
             <p>Your <strong>CONTRIBUTION</strong> minus <strong>TOTAL LOAN BALANCE</strong> is equal to <strong>CALCULATED BALANCE</strong>.</p>
             <p>Below is your calculation of your loan/debt:</p>
-            <p id="loanDebtCalculation"></p>
+            <p id="loanDebtCalculation"><hr><p style="font-size: small;">Note 1: Only those who completed the contribution will receive full money + dividend.</p>
+            <p style="font-size: small;">Note 2: For those who cannot complete their contribution, by the end of the term, will only receive their money back based on how much they contributed.</p>
+            <p style="font-size: small;">Note 3: By the end of the term, those who have a loan balance and cannot complete the contribution, will only receive money based on the <strong>CALCULATED BALANCE</strong> in LOAN/DEBT CALCULATOR.</p>
+            <p style="font-size: small;">Note 4: If the <strong>CALCULATED BALANCE</strong> is <strong style="color: red;">negative</strong> amount and want to discontinue their contribution or cannot complete the contribution due to deadline, kindly settle the debt balance based on the amount shown in LOAN/DEBT CALCULATOR.</p></p>
          </div>
-         <p style="font-size: small;">Note 1: Only those who completed the contribution will receive full money + dividend.</p>
-         <p style="font-size: small;">Note 2: For those who cannot complete their contribution, by the end of the term, will only receive their money back based on how much they contributed.</p>
-         <p style="font-size: small;">Note 3: By the end of the term, those who have a loan balance and cannot complete the contribution, will only receive money based on the <strong>CALCULATED BALANCE</strong> in LOAN/DEBT CALCULATOR.</p>
-         <p style="font-size: small;">Note 4: If the <strong>CALCULATED BALANCE</strong> is <strong style="color: red;">negative</strong> amount and want to discontinue their contribution or cannot complete the contribution due to deadline, kindly settle the debt balance based on the amount shown in LOAN/DEBT CALCULATOR.</p>
-      </div>
+      </div><hr>
      <div class="countdown" id="countdown">
          <div class="time">
             <span id="year"></span>
