@@ -52,7 +52,8 @@
                </tbody>
             </table>
          </div>
-      </div><hr>
+      </div>
+      <hr>
       <div class="contribution-calculator-container">
          <h3 class="contribution-calculator-text">CONTRIBUTION CALCULATOR ≻</h3>
          <div class="contribution-calculator-content">
@@ -61,37 +62,54 @@
             <p>SELECT DATE: <input type="text" id="contributionEndDate" class="date-input" placeholder="MM/DD/YYYY"></p>
             <p>CALCULATED AMOUNT: <span id="calculatedAmount"></span></p>
          </div>
-      </div><hr>
+      </div>
+      <hr>
       <div class="calculator-container">
          <h3 class="calculator-text">CONTRIBUTION DATE CALCULATOR ≻</h3>
          <div class="calculator-content">
-            <p>Your current date contribution as of <span id="currentDate"></span> is <strong><span id="estimatedDate"></span></strong></p><hr>
+            <p>Your current date contribution as of <span id="currentDate"></span> is <strong><span id="estimatedDate"></span></strong></p>
+            <hr>
             <p>How it's calculated?</p>
             <p><strong>CONTRIBUTION</strong> divided by <strong>₱10/day</strong> divided by <strong>NO. OF HEAD/S</strong> is equal <strong>TOTAL NUMBER OF DAYS</strong>.</p>
             <p>Below is your calculation date of your contribution:</p>
             <p id="contributionCalculation"></p>
             <p>Estimated date: <strong><span id="estimatedDate1"></span></strong></p>
          </div>
-      </div><hr>
+      </div>
+      <hr>
       <div class="loan-debt-container">
          <h3 class="loan-debt-text">LOAN/DEBT CALCULATOR ≻</h3>
          <div class="loan-debt-content">
             <p>How's your loan/debt calculated?</p>
             <p>Your <strong>CONTRIBUTION</strong> minus <strong>TOTAL LOAN BALANCE</strong> is equal to <strong>CALCULATED BALANCE</strong>.</p>
             <p>Below is your calculation of your loan/debt:</p>
-            <p id="loanDebtCalculation"><hr>
+            <p id="loanDebtCalculation">
+            <hr>
+            <div class="important-notes">
                <h5>IMPORTANT NOTES</h5>
                <ul>
-                  <li><p style="font-size: small;" id="highlightnote1">Contribution Complete =  money back + dividend</p></li>
-                  <li><p style="font-size: small;" id="highlightnote2">Contribution incomplete = money back only</p></li>
-                  <li><p style="font-size: small;" id="highlightnote3">Contribution incomplete w/ loan balance = <strong>CALCULATED BALANCE</strong></p></li>
-                  <li><p style="font-size: small;" id="highlightnote4">Contribution complete w/ loan balance = <strong>CALCULATED BALANCE</strong></p></li>
-                  <li><p style="font-size: small;" id="highlightnote5"><strong>CALCULATED BALANCE</strong> negative = settle your debt</p></li>
+                  <li>
+                     <p style="font-size: small;" id="highlightnote1">Contribution Complete =  money back + dividend</p>
+                  </li>
+                  <li>
+                     <p style="font-size: small;" id="highlightnote2">Contribution incomplete = money back only</p>
+                  </li>
+                  <li>
+                     <p style="font-size: small;" id="highlightnote3">Contribution incomplete w/ loan balance = <strong>CALCULATED BALANCE</strong></p>
+                  </li>
+                  <li>
+                     <p style="font-size: small;" id="highlightnote4">Contribution complete w/ loan balance = <strong>CALCULATED BALANCE</strong></p>
+                  </li>
+                  <li>
+                     <p style="font-size: small;" id="highlightnote5"><strong>CALCULATED BALANCE</strong> negative = settle your debt</p>
+                  </li>
                </ul>
+            </div>
             </p>
          </div>
-      </div><hr>
-     <div class="countdown" id="countdown">
+      </div>
+      <hr>
+      <div class="countdown" id="countdown">
          <div class="time">
             <span id="year"></span>
             <small>YEAR</small>
