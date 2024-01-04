@@ -1,16 +1,34 @@
 {
-   "participants": [
+  "participants": [
      {
-       "name": "0",
-       "heads": 1,
-       "contribution": 0,
-       "total_loan_balance": 0
+        "name": "note 1",
+        "heads": 1,
+        "contribution": 3660,
+        "total_loan_balance": 0
      },
      {
-       "name": "0",
-       "heads": 2,
-       "contribution": 0,
-       "total_loan_balance": 0
+        "name": "note 2",
+        "heads": 1,
+        "contribution": 3000,
+        "total_loan_balance": 0
+     },
+     {
+        "name": "note 3",
+        "heads": 1,
+        "contribution": 3000,
+        "total_loan_balance": 1000
+     },
+     {
+        "name": "note 5",
+        "heads": 1,
+        "contribution": 1000,
+        "total_loan_balance": 3000
+     },
+     {
+        "name": "note 4",
+        "heads": 1,
+        "contribution": 3660,
+        "total_loan_balance": 100
      }
-   ]
+  ]
 }
