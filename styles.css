@@ -6,6 +6,10 @@ body {
 	position: relative; /* Added position relative to position the text */
 }
 
+a {
+	text-decoration: none;
+}
+
 .countdown {
 	font-weight: bold;
 	display: flex;
