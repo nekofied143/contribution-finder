@@ -1,1 +1,217 @@
-(function(_0x253d04,_0x333d9a){const _0x57a7ae=_0x3814,_0x1f6795=_0x253d04();while(!![]){try{const _0x81595=parseInt(_0x57a7ae(0x1a9))/0x1+parseInt(_0x57a7ae(0x1d8))/0x2*(parseInt(_0x57a7ae(0x1a7))/0x3)+-parseInt(_0x57a7ae(0x1af))/0x4+-parseInt(_0x57a7ae(0x1dc))/0x5*(-parseInt(_0x57a7ae(0x1a3))/0x6)+-parseInt(_0x57a7ae(0x1d2))/0x7+parseInt(_0x57a7ae(0x190))/0x8*(parseInt(_0x57a7ae(0x1d6))/0x9)+-parseInt(_0x57a7ae(0x1b5))/0xa*(parseInt(_0x57a7ae(0x1d1))/0xb);if(_0x81595===_0x333d9a)break;else _0x1f6795['push'](_0x1f6795['shift']());}catch(_0x37f4fe){_0x1f6795['push'](_0x1f6795['shift']());}}}(_0x2fa4,0x1dca3));function _0x3814(_0x245c97,_0x36b1bf){const _0x56d666=_0x2fa4();return _0x3814=function(_0x57433c,_0x261c32){_0x57433c=_0x57433c-0x18d;let _0x425833=_0x56d666[_0x57433c];return _0x425833;},_0x3814(_0x245c97,_0x36b1bf);}function updateCountdown(){const _0x3a089a=_0x3814,_0x1c3da7=(function(){let _0x218a98=!![];return function(_0xe27dca,_0x4ab65f){const _0x37442a=_0x218a98?function(){if(_0x4ab65f){const _0x5af8e7=_0x4ab65f['apply'](_0xe27dca,arguments);return _0x4ab65f=null,_0x5af8e7;}}:function(){};return _0x218a98=![],_0x37442a;};}()),_0x38df9a=_0x1c3da7(this,function(){const _0x1edac2=_0x3814;return _0x38df9a[_0x1edac2(0x1ba)]()['search'](_0x1edac2(0x1b7))['toString']()[_0x1edac2(0x1cf)](_0x38df9a)[_0x1edac2(0x1e3)](_0x1edac2(0x1b7));});_0x38df9a();const _0x1d251d=(function(){let _0x4e3b1e=!![];return function(_0x5ba32d,_0x44e506){const _0x396118=_0x4e3b1e?function(){const _0x8cb22c=_0x3814;if(_0x44e506){const _0x2d9b43=_0x44e506[_0x8cb22c(0x195)](_0x5ba32d,arguments);return _0x44e506=null,_0x2d9b43;}}:function(){};return _0x4e3b1e=![],_0x396118;};}());(function(){_0x1d251d(this,function(){const _0x62a0b6=_0x3814,_0x42c17d=new RegExp(_0x62a0b6(0x197)),_0x30678f=new RegExp(_0x62a0b6(0x1bd),'i'),_0x5e6adc=_0xb519aa(_0x62a0b6(0x1ca));!_0x42c17d[_0x62a0b6(0x1e2)](_0x5e6adc+_0x62a0b6(0x1ab))||!_0x30678f['test'](_0x5e6adc+_0x62a0b6(0x1d7))?_0x5e6adc('0'):_0xb519aa();})();}());const _0x14c9ab=(function(){let _0x27126b=!![];return function(_0x37a593,_0x4798ec){const _0x26970f=_0x27126b?function(){const _0x47caa4=_0x3814;if(_0x4798ec){const _0x1b96d0=_0x4798ec[_0x47caa4(0x195)](_0x37a593,arguments);return _0x4798ec=null,_0x1b96d0;}}:function(){};return _0x27126b=![],_0x26970f;};}()),_0x3b1e22=_0x14c9ab(this,function(){const _0x4abef8=_0x3814,_0x3ce351=function(){const _0x3f3fc7=_0x3814;let _0x2df210;try{_0x2df210=Function(_0x3f3fc7(0x1d5)+_0x3f3fc7(0x1b3)+');')();}catch(_0x505bc6){_0x2df210=window;}return _0x2df210;},_0x4cb729=_0x3ce351(),_0x135704=_0x4cb729[_0x4abef8(0x1df)]=_0x4cb729[_0x4abef8(0x1df)]||{},_0x50d747=[_0x4abef8(0x1de),_0x4abef8(0x1b8),_0x4abef8(0x1c7),_0x4abef8(0x191),'exception',_0x4abef8(0x1c2),_0x4abef8(0x1dd)];for(let _0x4726e2=0x0;_0x4726e2<_0x50d747[_0x4abef8(0x1d3)];_0x4726e2++){const _0x4b07ab=_0x14c9ab['constructor'][_0x4abef8(0x1da)]['bind'](_0x14c9ab),_0x327537=_0x50d747[_0x4726e2],_0x352b51=_0x135704[_0x327537]||_0x4b07ab;_0x4b07ab[_0x4abef8(0x1ac)]=_0x14c9ab[_0x4abef8(0x1a0)](_0x14c9ab),_0x4b07ab[_0x4abef8(0x1ba)]=_0x352b51[_0x4abef8(0x1ba)][_0x4abef8(0x1a0)](_0x352b51),_0x135704[_0x327537]=_0x4b07ab;}});_0x3b1e22();const _0x1491c8=new Date(),_0x511e51=_0x1491c8['getFullYear'](),_0x4e3dd9=_0x511e51+0x1,_0x842f17=new Date(_0x4e3dd9,0x0,0x1,0x0,0x0,0x0,0x0),_0x433ecd=_0x842f17-_0x1491c8,_0x5d2c82=_0x1491c8['getMonth'](),_0x21ce13=_0x1491c8[_0x3a089a(0x1cd)](),_0x5b2d2b=_0x1491c8['getHours'](),_0x404733=_0x1491c8[_0x3a089a(0x19d)](),_0x50bd36=_0x1491c8[_0x3a089a(0x192)](),_0x4b7b23=Math['floor'](_0x433ecd/(0x3e8*0x3c*0x3c*0x18)),_0x4c692c=Math[_0x3a089a(0x1ce)](_0x433ecd%(0x3e8*0x3c*0x3c*0x18)/(0x3e8*0x3c*0x3c)),_0x8a80e6=Math[_0x3a089a(0x1ce)](_0x433ecd%(0x3e8*0x3c*0x3c)/(0x3e8*0x3c)),_0x3a9812=Math['floor'](_0x433ecd%(0x3e8*0x3c)/0x3e8);document[_0x3a089a(0x1e1)](_0x3a089a(0x1a4))[_0x3a089a(0x1a8)]=_0x511e51,document[_0x3a089a(0x1e1)](_0x3a089a(0x198))[_0x3a089a(0x1a8)]=_0x4b7b23,document[_0x3a089a(0x1e1)]('hours')['innerText']=_0x4c692c,document[_0x3a089a(0x1e1)](_0x3a089a(0x19b))[_0x3a089a(0x1a8)]=_0x8a80e6,document[_0x3a089a(0x1e1)](_0x3a089a(0x1b2))['innerText']=_0x3a9812;let _0x3194bc=![];if(_0x5d2c82===0xb&&_0x21ce13===0x19&&_0x5b2d2b===0xe&&_0x404733===0x0&&_0x50bd36===0x0){clearInterval(countdown);const _0x4a15a2=document[_0x3a089a(0x1e1)](_0x3a089a(0x19a));_0x4a15a2['innerHTML']='<center><div\x20id=\x22christmasMessage\x22\x20style=\x22color:\x20white;\x22>MERRY\x20CHRISTMAS!</div></center>',document[_0x3a089a(0x1a6)][_0x3a089a(0x1cb)][_0x3a089a(0x18d)]=_0x3a089a(0x1db),document[_0x3a089a(0x1a6)]['style'][_0x3a089a(0x1a2)]=_0x3a089a(0x1b9),!_0x3194bc&&(displayFireworks(),_0x3194bc=!![]),setTimeout(()=>{const _0x1ce38d=_0x3a089a;document[_0x1ce38d(0x1e1)](_0x1ce38d(0x1ae))['innerText']='',document['body'][_0x1ce38d(0x1cb)][_0x1ce38d(0x1a2)]=_0x1ce38d(0x196);const _0x2dd085='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22year\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22time\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22days\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small>DAYS</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22time\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22hours\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small>HOURS</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22time\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22minutes\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small>MINUTES</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22time\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22seconds\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small>SECONDS</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20';_0x4a15a2[_0x1ce38d(0x18e)]=_0x2dd085,countdown=setInterval(()=>{updateCountdown();},0x3e8);},0x7530);}if(_0x5d2c82===0x0&&_0x21ce13===0x1&&_0x5b2d2b===0x0&&_0x404733===0x0&&_0x50bd36===0x0){clearInterval(countdown);const _0x2fb171=document[_0x3a089a(0x1e1)](_0x3a089a(0x19a));_0x2fb171[_0x3a089a(0x18e)]='<center><div\x20id=\x22NewYear\x22\x20style=\x22color:\x20white;\x22>HAPPY\x20NEW\x20YEAR!</div></center>',document[_0x3a089a(0x1a6)][_0x3a089a(0x1cb)][_0x3a089a(0x18d)]='background-color\x203s\x20ease',document['body'][_0x3a089a(0x1cb)]['backgroundColor']='#000',!_0x3194bc&&(displayFireworks(),_0x3194bc=!![]),setTimeout(()=>{const _0x350f1a=_0x3a089a;document[_0x350f1a(0x1e1)]('NewYear')[_0x350f1a(0x1a8)]='',document['body'][_0x350f1a(0x1cb)]['backgroundColor']=_0x350f1a(0x196);const _0x5d5027=_0x350f1a(0x1bb);_0x2fb171['innerHTML']=_0x5d5027,countdown=setInterval(()=>{updateCountdown();},0x3e8);},0x7530);}}updateCountdown(),countdown=setInterval(updateCountdown,0x3e8);function _0x2fa4(){const _0x93f55=['info','speed','explosionFinished','init','style','fill','getDate','floor','constructor','while\x20(true)\x20{}','77FHyXmF','446047PAOJXX','length','position','return\x20(function()\x20','1251IEpluZ','input','22HdPHIF','forEach','prototype','background-color\x203s\x20ease','80NFSCaz','trace','log','console','call','getElementById','test','search',',\x20100%,\x2050%,\x201)','transition','innerHTML','canvas','11144NMZMez','error','getSeconds','left','debu','apply','#FFF','function\x20*\x5c(\x20*\x5c)','days','gger','countdown','minutes','fillStyle','getMinutes','height','color','bind','beginPath','backgroundColor','16764IgNRXu','year','string','body','4698jIdQIu','innerText','46273iKoxkT','random','chain','__proto__','radius','christmasMessage','180916AvteGQ','pointerEvents','innerHeight','seconds','{}.constructor(\x22return\x20this\x22)(\x20)','appendChild','101230iahagu','life','(((.+)+)+)+$','warn','#000','toString','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22year\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22time\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22days\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small>DAYS</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22time\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22hours\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small>HOURS</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22time\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22minutes\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small>MINUTES</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22time\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22seconds\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<small>SECONDS</small>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20','top','\x5c+\x5c+\x20*(?:[a-zA-Z_$][0-9a-zA-Z_$]*)','arc','counter','width','stateObject','table','none','getContext','createElement','push'];_0x2fa4=function(){return _0x93f55;};return _0x2fa4();}function displayFireworks(){const _0x18d4d3=_0x3814,_0x4564b9=document[_0x18d4d3(0x1c5)](_0x18d4d3(0x18f));_0x4564b9[_0x18d4d3(0x1c0)]=window['innerWidth'],_0x4564b9[_0x18d4d3(0x19e)]=window[_0x18d4d3(0x1b1)],_0x4564b9[_0x18d4d3(0x1cb)][_0x18d4d3(0x1d4)]='fixed',_0x4564b9[_0x18d4d3(0x1cb)][_0x18d4d3(0x1bc)]='0',_0x4564b9[_0x18d4d3(0x1cb)][_0x18d4d3(0x193)]='0',_0x4564b9['style'][_0x18d4d3(0x1b0)]=_0x18d4d3(0x1c3),document[_0x18d4d3(0x1a6)][_0x18d4d3(0x1b4)](_0x4564b9);const _0x1178b6=_0x4564b9[_0x18d4d3(0x1c4)]('2d'),_0x500fbb=[],_0x325399=[],_0x3e2712=0x64,_0x8ae1fb=0x5,_0x2ccdad=0x64,_0xb50ed5=0x7d0,_0x256f35=0x7530;let _0xc8c1b2=0x0;function _0x4f5d21(){const _0x4c3737=_0x18d4d3;return{'x':Math['random']()*_0x4564b9['width'],'y':_0x4564b9[_0x4c3737(0x19e)]+0xa,'color':'hsla('+Math[_0x4c3737(0x1aa)]()*0x168+_0x4c3737(0x1e4),'radius':0x2,'speed':{'x':Math['random']()*0x5-2.5,'y':Math[_0x4c3737(0x1aa)]()*-0xf-0xa},'explosionFinished':![]};}function _0x12e3a9(){const _0x12f829=_0x18d4d3;_0x1178b6['clearRect'](0x0,0x0,_0x4564b9['width'],_0x4564b9[_0x12f829(0x19e)]),_0xc8c1b2+=0x3e8/0x3c;if(_0xc8c1b2<_0x256f35)_0x500fbb[_0x12f829(0x1d3)]<_0x3e2712&&Math['random']()<0.1&&_0x500fbb['push'](_0x4f5d21()),_0x500fbb[_0x12f829(0x1d9)]((_0x4b3345,_0x28d5eb)=>{const _0x45c262=_0x12f829;_0x1178b6[_0x45c262(0x1a1)](),_0x1178b6[_0x45c262(0x1be)](_0x4b3345['x'],_0x4b3345['y'],_0x4b3345[_0x45c262(0x1ad)],0x0,Math['PI']*0x2),_0x1178b6[_0x45c262(0x19c)]=_0x4b3345[_0x45c262(0x19f)],_0x1178b6['fill']();if(!_0x4b3345[_0x45c262(0x1c9)]){if(_0x4b3345['y']<=_0x4b3345['speed']['y']){_0x4b3345[_0x45c262(0x1c9)]=!![];for(let _0x5390aa=0x0;_0x5390aa<_0x2ccdad;_0x5390aa++){_0x325399[_0x45c262(0x1c6)]({'x':_0x4b3345['x'],'y':_0x4b3345['y'],'color':_0x4b3345[_0x45c262(0x19f)],'radius':Math[_0x45c262(0x1aa)]()*0x3+0x1,'speed':{'x':Math['random']()*0x6-0x3,'y':Math[_0x45c262(0x1aa)]()*0x6-0x3},'life':Math[_0x45c262(0x1aa)]()*_0xb50ed5});}}else _0x4b3345['x']+=_0x4b3345['speed']['x'],_0x4b3345['y']+=_0x4b3345[_0x45c262(0x1c8)]['y'],_0x4b3345[_0x45c262(0x1c8)]['y']+=0.2;}}),_0x325399[_0x12f829(0x1d9)]((_0x195e40,_0x3622c0)=>{const _0x25faf1=_0x12f829;_0x1178b6[_0x25faf1(0x1a1)](),_0x1178b6[_0x25faf1(0x1be)](_0x195e40['x'],_0x195e40['y'],_0x195e40[_0x25faf1(0x1ad)],0x0,Math['PI']*0x2),_0x1178b6[_0x25faf1(0x19c)]=_0x195e40['color'],_0x1178b6[_0x25faf1(0x1cc)](),_0x195e40[_0x25faf1(0x1b6)]<=0x0?_0x325399['splice'](_0x3622c0,0x1):(_0x195e40['x']+=_0x195e40['speed']['x'],_0x195e40['y']+=_0x195e40[_0x25faf1(0x1c8)]['y'],_0x195e40[_0x25faf1(0x1b6)]--);});else return;requestAnimationFrame(_0x12e3a9);}_0x12e3a9();}function _0xb519aa(_0x5dfd1e){function _0x367f1f(_0x4f5dc1){const _0x3f51f8=_0x3814;if(typeof _0x4f5dc1===_0x3f51f8(0x1a5))return function(_0x50c64c){}[_0x3f51f8(0x1cf)](_0x3f51f8(0x1d0))[_0x3f51f8(0x195)](_0x3f51f8(0x1bf));else(''+_0x4f5dc1/_0x4f5dc1)[_0x3f51f8(0x1d3)]!==0x1||_0x4f5dc1%0x14===0x0?function(){return!![];}[_0x3f51f8(0x1cf)](_0x3f51f8(0x194)+_0x3f51f8(0x199))[_0x3f51f8(0x1e0)]('action'):function(){return![];}[_0x3f51f8(0x1cf)](_0x3f51f8(0x194)+'gger')['apply'](_0x3f51f8(0x1c1));_0x367f1f(++_0x4f5dc1);}try{if(_0x5dfd1e)return _0x367f1f;else _0x367f1f(0x0);}catch(_0x379141){}}
+function updateCountdown() {
+    const currentTime = new Date();
+    const currentYear = currentTime.getFullYear();
+    const nextYear = currentYear + 1;
+    const newYear = new Date(nextYear, 0, 1, 0, 0, 0, 0);
+    const difference = newYear - currentTime;
+    const currentMonth = currentTime.getMonth();
+    const currentDay = currentTime.getDate();
+    const currentHour = currentTime.getHours();
+    const currentMinute = currentTime.getMinutes();
+    const currentSecond = currentTime.getSeconds();
+ 
+    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+ 
+    document.getElementById('year').innerText = currentYear;
+    document.getElementById('days').innerText = days;
+    document.getElementById('hours').innerText = hours;
+    document.getElementById('minutes').innerText = minutes;
+    document.getElementById('seconds').innerText = seconds;
+ 
+    let fireworksDisplayed = false; // Variable to track if fireworks have been displayed
+ 
+    if (currentMonth === 11 && currentDay === 25 && currentHour === 0 && currentMinute === 0 && currentSecond === 0) {
+       clearInterval(countdown);
+       const countdownElement = document.getElementById('countdown');
+       countdownElement.innerHTML = '<div id="christmasMessage" style="color: white;">MERRY CHRISTMAS!</div>';
+       document.body.style.transition = 'background-color 3s ease';
+       document.body.style.backgroundColor = '#000';
+ 
+       if (!fireworksDisplayed) {
+          displayFireworks(); // Display fireworks only once after showing the Christmas message
+          fireworksDisplayed = true; // Update the flag to indicate fireworks have been displayed
+       }
+ 
+       setTimeout(() => {
+          document.getElementById('christmasMessage').innerText = ''; // Clear the message
+          document.body.style.backgroundColor = '#FFF'; // Reset background color
+ 
+          // Rebuild the countdown HTML structure
+          const countdownHTML = `
+          <div class="time">
+             <span id="days"></span>
+             <small>DAYS</small>
+          </div>
+          <div class="time">
+             <span id="hours"></span>
+             <small>HOURS</small>
+          </div>
+          <div class="time">
+             <span id="minutes"></span>
+             <small>MINUTES</small>
+          </div>
+          <div class="time">
+             <span id="seconds"></span>
+             <small>SECONDS</small>
+          </div>
+       `;
+          countdownElement.innerHTML = countdownHTML;
+ 
+          // Resume countdown
+          countdown = setInterval(() => {
+             updateCountdown();
+          }, 1000);
+       }, 30000);
+    }
+ 
+ 
+    if (currentMonth === 0 && currentDay === 1 && currentHour === 0 && currentMinute === 0 && currentSecond === 0) {
+       clearInterval(countdown);
+       const countdownElement = document.getElementById('countdown');
+       countdownElement.innerHTML = '<div id="NewYear" style="color: white;">HAPPY NEW YEAR!</div>';
+       document.body.style.transition = 'background-color 3s ease';
+       document.body.style.backgroundColor = '#000';
+ 
+       if (!fireworksDisplayed) {
+          displayFireworks(); // Display fireworks only once after showing the New Year message
+          fireworksDisplayed = true; // Update the flag to indicate fireworks have been displayed
+       }
+ 
+       setTimeout(() => {
+          document.getElementById('NewYear').innerText = ''; // Clear the message
+          document.body.style.backgroundColor = '#FFF'; // Reset background color
+ 
+          // Rebuild the countdown HTML structure
+          const countdownHTML = `
+          <div class="time">
+             <span id="days"></span>
+             <small>DAYS</small>
+          </div>
+          <div class="time">
+             <span id="hours"></span>
+             <small>HOURS</small>
+          </div>
+          <div class="time">
+             <span id="minutes"></span>
+             <small>MINUTES</small>
+          </div>
+          <div class="time">
+             <span id="seconds"></span>
+             <small>SECONDS</small>
+          </div>
+       `;
+          countdownElement.innerHTML = countdownHTML;
+ 
+          // Resume countdown
+          countdown = setInterval(() => {
+             updateCountdown();
+          }, 1000);
+       }, 30000);
+    }
+ }
+ // Initial call to start the countdown
+ updateCountdown();
+ 
+ // Update the countdown every second
+ countdown = setInterval(updateCountdown, 1000);
+ 
+ function displayFireworks() {
+    const canvas = document.createElement('canvas');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    canvas.style.position = 'fixed';
+    canvas.style.top = '0';
+    canvas.style.left = '0';
+    canvas.style.pointerEvents = 'none';
+    document.body.appendChild(canvas);
+ 
+    const ctx = canvas.getContext('2d');
+    const fireworks = [];
+    const explosionParticles = [];
+    const numFireworks = 100;
+    const explosionRadius = 5;
+    const maxParticles = 100;
+    const explosionDuration = 2000;
+    const fireworksDuration = 30000;
+    let elapsedTime = 0;
+ 
+    function createFirework() {
+       return {
+          x: Math.random() * canvas.width,
+          y: canvas.height + 10,
+          color: `hsla(${Math.random() * 360}, 100%, 50%, 1)`,
+          radius: 2,
+          speed: {
+             x: Math.random() * 5 - 2.5,
+             y: Math.random() * -15 - 10
+          },
+          explosionFinished: false
+       };
+    }
+ 
+    function draw() {
+       ctx.clearRect(0, 0, canvas.width, canvas.height);
+       elapsedTime += 1000 / 60;
+ 
+       if (elapsedTime < fireworksDuration) {
+          if (fireworks.length < numFireworks && Math.random() < 0.1) {
+             fireworks.push(createFirework());
+          }
+ 
+          fireworks.forEach((firework, index) => {
+             ctx.beginPath();
+             ctx.arc(firework.x, firework.y, firework.radius, 0, Math.PI * 2);
+             ctx.fillStyle = firework.color;
+             ctx.fill();
+ 
+             if (!firework.explosionFinished) {
+                if (firework.y <= firework.speed.y) {
+                   firework.explosionFinished = true;
+ 
+                   for (let i = 0; i < maxParticles; i++) {
+                      explosionParticles.push({
+                         x: firework.x,
+                         y: firework.y,
+                         color: firework.color,
+                         radius: Math.random() * 3 + 1,
+                         speed: {
+                            x: Math.random() * 6 - 3,
+                            y: Math.random() * 6 - 3
+                         },
+                         life: Math.random() * explosionDuration
+                      });
+                   }
+                } else {
+                   firework.x += firework.speed.x;
+                   firework.y += firework.speed.y;
+                   firework.speed.y += 0.2;
+                }
+             }
+          });
+ 
+          explosionParticles.forEach((particle, index) => {
+             ctx.beginPath();
+             ctx.arc(particle.x, particle.y, particle.radius, 0, Math.PI * 2);
+             ctx.fillStyle = particle.color;
+             ctx.fill();
+ 
+             if (particle.life <= 0) {
+                explosionParticles.splice(index, 1);
+             } else {
+                particle.x += particle.speed.x;
+                particle.y += particle.speed.y;
+                particle.life--;
+             }
+          });
+       } else {
+          return;
+       }
+ 
+       requestAnimationFrame(draw);
+    }
+ 
+    draw();
+ }
