@@ -56,14 +56,6 @@ a {
     background-color: #e0e0e0;
 }
 
-.legends-content {
-    display: none;
-}
-
-.legends-container.active .legends-content {
-    display: block;
-}
-
 .container {
     width: 80%;
     max-width: 1000px;
