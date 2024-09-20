@@ -1,8 +1,3 @@
-/* General Reset for Box Sizing */
-* {
-    box-sizing: border-box;
- }
-
 /* Styles for the navigation bar */
 nav {
     background-color: #333;
