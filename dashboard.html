@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Dashboard</title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+   </head>
+   <body>
+      <!-- Navigation Bar -->
+      <nav>
+         <ul>
+             <li><a href="#">HOME</a></li>
+             <li><a href="raffle.html">RAFFLE</a></li>
+             <li><a href="index.html">LOGOUT</a></li>
+         </ul>
+     </nav>
+
+     <!-- Announcement Modal -->
+<div class="announcement-modal" id="announcementModal">
+   <div class="announcement-modal-content">
+       <span class="close" id="closeAnnouncement">&times;</span>
+       <h2>Announcements</h2>
+       <ul id="announcementList">
+           <!-- List items will be dynamically added here -->
+       </ul>
+   </div>
+</div>
+
+      <div class="container">
+         <div class="data-container">
+            <table id="dataTable">
+               <tbody>
+                  <tr></tr>
+                     <th>NAME</th>
+                     <td id="nameUser">
+                        <!-- user NAME will be displayed here -->
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>NO. OF HEAD/S</th>
+                     <td id="headsData">
+                        <!-- NO. OF HEAD/S data will be displayed here -->
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>CONTRIBUTION</th>
+                     <td id="contributionData">
+                        <!-- CONTRIBUTION data will be displayed here -->
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>TOTAL LOAN BALANCE</th>
+                     <td id="loanBalanceData">
+                        <!-- TOTAL LOAN BALANCE data will be displayed here -->
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>REMARKS</th>
+                     <td id="remarksData">
+                        <!-- REMARKS data will be displayed here -->
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+      <script src="dashboard.js"></script>
+      <script src="announcement.js"></script>
+      <script src="https://apis.google.com/js/api.js"></script>
+   </body>
+</html>

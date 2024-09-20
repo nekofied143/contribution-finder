@@ -3,149 +3,32 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Contribution Information</title>
+      <title>LOGIN</title>
       <link rel="stylesheet" type="text/css" href="styles.css">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
    </head>
    <body>
-      <!-- Navigation Bar -->
-      <nav>
-         <ul>
-             <li><a href="#">HOME</a></li>
-             <li><a href="raffle.html">RAFFLE</a></li>
-         </ul>
-     </nav>
-
-     <!-- Announcement Modal -->
-<div class="announcement-modal" id="announcementModal">
-   <div class="announcement-modal-content">
-       <span class="close" id="closeAnnouncement">&times;</span>
-       <h2>Announcements</h2>
-       <ul id="announcementList">
-           <!-- List items will be dynamically added here -->
-       </ul>
-   </div>
-</div>
       <div class="container">
-         <div class="search-container">
-            <input type="text" id="searchInput" placeholder="Input first your UID here."><br>
-            <center><small id="announcement"></small></center>
-         </div>
-         <div class="data-container">
-            <table id="dataTable">
-               <tbody>
-                  <tr>
-                     <th>NO. OF HEAD/S</th>
-                     <td id="headsData">
-                        <!-- NO. OF HEAD/S data will be displayed here -->
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>CONTRIBUTION</th>
-                     <td id="contributionData">
-                        <!-- CONTRIBUTION data will be displayed here -->
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>TOTAL LOAN BALANCE</th>
-                     <td id="loanBalanceData">
-                        <!-- TOTAL LOAN BALANCE data will be displayed here -->
-                     </td>
-                  </tr>
-                  <tr>
-                     <th>REMARKS</th>
-                     <td id="remarksData">
-                        <!-- REMARKS data will be displayed here -->
-                     </td>
-                  </tr>
-               </tbody>
-            </table>
-         </div>
-      </div>
-      <hr>
-      <div class="contribution-calculator-container">
-         <h3 class="contribution-calculator-text">CONTRIBUTION CALCULATOR ≻</h3>
-         <div class="contribution-calculator-content">
-            <small>Please select your preferred date to calculate the amount.</small>
-            <p>NO. OF HEAD/S: <span id="contributionHeads"></span></p>
-            <p>START DATE: <span id="contributionStartDate"></span></p>
-            <p>SELECT DATE: <input type="text" id="contributionEndDate" class="date-input" placeholder="MM/DD/YYYY"></p>
-            <p>AMOUNT TO PAY: <span id="calculatedAmount"></span></p>
-         </div>
-      </div>
-      <hr>
-      <div class="calculator-container">
-         <h3 class="calculator-text">CONTRIBUTION DATE CALCULATOR ≻</h3>
-         <div class="calculator-content">
-            <p>Your current date contribution as of <span id="currentDate"></span> is <strong><span id="estimatedDate"></span></strong></p>
-            <hr>
-            <p>How it's calculated?</p>
-            <p><strong>CONTRIBUTION</strong> divided by <strong>₱10/day</strong> divided by <strong>NO. OF HEAD/S</strong> is equal <strong>TOTAL NUMBER OF DAYS</strong>.</p>
-            <p>Below is your calculation date of your contribution:</p>
-            <p id="contributionCalculation"></p>
-            <p>Estimated date: <strong><span id="estimatedDate1"></span></strong></p>
-         </div>
-      </div>
-      <hr>
-      <div class="loan-debt-container">
-         <h3 class="loan-debt-text">LOAN/DEBT CALCULATOR ≻</h3>
-         <div class="loan-debt-content">
-            <p>How's your loan/debt calculated?</p>
-            <p>Your <strong>CONTRIBUTION</strong> minus <strong>TOTAL LOAN BALANCE</strong> is equal to <strong>CALCULATED BALANCE</strong>.</p>
-            <p>Below is your calculation of your loan/debt:</p>
-            <p id="loanDebtCalculation">
-            <hr>
-            <div class="important-notes">
-               <h5>LEGENDS</h5>
-               <ul>
-                  <li>
-                     <p style="font-size: small;" id="highlightnote1">Contribution Complete =  money back + dividend</p>
-                  </li>
-                  <li>
-                     <p style="font-size: small;" id="highlightnote2">Contribution incomplete = money back only</p>
-                  </li>
-                  <li>
-                     <p style="font-size: small;" id="highlightnote3">Contribution incomplete w/ loan balance = <strong>CALCULATED BALANCE</strong> only</p>
-                  </li>
-                  <li>
-                     <p style="font-size: small;" id="highlightnote4">Contribution complete w/ loan balance = <strong>CALCULATED BALANCE</strong> only</p>
-                  </li>
-                  <li>
-                     <p style="font-size: small;" id="highlightnote5"><strong>CALCULATED BALANCE</strong> negative = settle your debt</p>
-                  </li>
-               </ul>
+         <h2>Credentials</h2>
+         <form id="login-form">
+            <div class="form-group">
+               <label for="userId">User ID</label>
+               <input type="text" id="userId" name="userId" required>
             </div>
-            </p>
-         </div>
+            <div class="form-group">
+               <label for="authCode">Authentication Code</label>
+               <input type="text" id="authCode" name="authCode" required>
+            </div>
+
+            <!-- Div to display the fetched authentication code -->
+            <div id="authCodeDisplay" class="auth-code-display">
+               <!-- The authentication code from the spreadsheet will be shown here -->
+            </div>
+            
+            <button type="submit" class="login-button">Login</button>
+         </form>
       </div>
-      <hr>
-      <div class="countdown" id="countdown">
-         <div class="time">
-            <span id="year"></span>
-            <small>YEAR</small>
-         </div>
-         <div class="time">
-            <span id="days"></span>
-            <small>DAYS</small>
-         </div>
-         <div class="time">
-            <span id="hours"></span>
-            <small>HOURS</small>
-         </div>
-         <div class="time">
-            <span id="minutes"></span>
-            <small>MINUTES</small>
-         </div>
-         <div class="time">
-            <span id="seconds"></span>
-            <small>SECONDS</small>
-         </div>
-      </div>
-      <script src="script.js"></script>
-      <script src="announcement.js"></script>
-      <script src="fireworks.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-      <script src="https://apis.google.com/js/api.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+      <script src="index.js"></script>
+      <script src="https://apis.google.com/js/api.js" onload="handleClientLoad()"></script>
    </body>
 </html>

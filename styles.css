@@ -1,3 +1,8 @@
+/* General Reset for Box Sizing */
+* {
+    box-sizing: border-box;
+ }
+
 /* Styles for the navigation bar */
 nav {
     background-color: #333;
@@ -5,7 +10,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 
 nav ul {
@@ -246,6 +251,74 @@ h5 {
     margin-bottom: -10px;
 }
 
+/* Form Heading */
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Label Styling */
+.form-group label {
+    display: block;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Input Field Styling */
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Center the auth code text */
+#authCodeDisplay {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+ 
+ /* Button Styling */
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+ 
+.login-button:hover {
+    background-color: #45a049;
+}
+
+.auth-image-container {
+    text-align: center; /* Centers the image horizontally */
+    margin-bottom: 20px; /* Adds space between the image and the login button */
+}
+ 
+ .centered-image {
+    max-width: 100%; /* Ensures the image fits within its container */
+    height: auto;    /* Maintains the image's aspect ratio */
+} 
+
 @media only screen and (max-width:768px) {
     .search-container {
         text-align: center;
@@ -268,13 +341,27 @@ h5 {
     .time small {
         padding: 10px;
     }
+
+    .container {
+        margin: 50px auto;
+        padding: 15px;
+    }
+  
+    h2 {
+        font-size: 20px;
+        align-content: center;
+    }
+  
+    .login-button {
+        font-size: 14px;
+    }
 }
 
 /* Styles for the Announcement Modal */
 .announcement-modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 2; /* Sit on top */
+    z-index: 3; /* Sit on top */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
