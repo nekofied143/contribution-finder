@@ -48,6 +48,38 @@ h2 {
     font-size: 16px;
 }
 
+/* Style the input container with icon */
+.input-container {
+    position: relative;
+    width: 100%;
+}
+  
+.input-container .icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px; /* Adjust icon size */
+    color: #666; /* Icon color */
+}
+  
+.input-container input {
+    width: 100%;
+    padding: 10px 10px 10px 40px; /* Add padding to the left to make space for the icon */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+.input-container input::placeholder {
+    color: #aaa; /* Placeholder color */
+}
+  
+.input-container input:focus {
+    border-color: #007bff;
+}
+  
+
 /* Center the auth code text */
 #authCodeDisplay {
     text-align: center;
@@ -55,9 +87,23 @@ h2 {
     font-weight: bold;
     color: #333;
     margin-bottom: 15px;
-  }
- 
- /* Button Styling */
+}
+
+/* Center the container for the authentication code display */
+.auth-code-display {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    height: 50px;            /* Adjust height based on your needs */
+}
+  
+/* Optionally, add styling to the image itself */
+.auth-code-display img {
+    max-width: 100%;         /* Ensures the image doesn't exceed the container width */
+    height: 100px;            /* Maintains aspect ratio */
+}
+
+/* Button Styling */
 .login-button {
     width: 100%;
     padding: 12px;
