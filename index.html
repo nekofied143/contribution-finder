@@ -11,17 +11,18 @@
          <h2>Credentials</h2>
          <form id="login-form">
             <div class="form-group">
-               <label for="userId">User ID</label>
-               <input type="text" id="userId" name="userId" required>
+               <i class="fas fa-user icon"></i> <!-- User icon -->
+               <input type="text" id="userId" name="userId" placeholder="User ID" required>
             </div>
             <div class="form-group">
-               <label for="authCode">Authentication Code</label>
-               <input type="text" id="authCode" name="authCode" required>
+               <i class="fas fa-key icon"></i> <!-- Key icon for Authentication Code -->
+               <input type="text" id="authCode" name="authCode" placeholder="Authentication Code" required>
             </div>
 
             <!-- Div to display the fetched authentication code -->
             <div id="authCodeDisplay" class="auth-code-display">
-               <!-- The authentication code from the spreadsheet will be shown here -->
+               <!-- The authentication code image from the spreadsheet will be shown here -->
+               <img id="authCodeImage" />
             </div>
             
             <button type="submit" class="login-button">Login</button>
@@ -29,6 +30,8 @@
       </div>
 
       <script src="index.js"></script>
+      <!-- Add the Font Awesome library -->
+      <script src="https://kit.fontawesome.com/2057990bdc.js" crossorigin="anonymous"></script>
       <script src="https://apis.google.com/js/api.js" onload="handleClientLoad()"></script>
    </body>
 </html>
