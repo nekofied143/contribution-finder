@@ -11,13 +11,19 @@
          <h2>Credentials</h2>
          <form id="login-form">
             <div class="form-group">
-               <i class="fas fa-user icon"></i> <!-- User icon -->
-               <input type="text" id="userId" name="userId" placeholder="User ID" required>
-            </div>
-            <div class="form-group">
-               <i class="fas fa-key icon"></i> <!-- Key icon for Authentication Code -->
-               <input type="text" id="authCode" name="authCode" placeholder="Authentication Code" required>
-            </div>
+               <div class="input-container">
+                 <i class="fas fa-user icon"></i> <!-- User icon -->
+                 <input type="text" id="userId" name="userId" placeholder="User ID" required>
+               </div>
+             </div>
+             
+             <div class="form-group">
+               <div class="input-container">
+                 <i class="fas fa-key icon"></i> <!-- Key icon for Authentication Code -->
+                 <input type="text" id="authCode" name="authCode" placeholder="Authentication Code" required>
+               </div>
+             </div>
+             
 
             <!-- Div to display the fetched authentication code -->
             <div id="authCodeDisplay" class="auth-code-display">
