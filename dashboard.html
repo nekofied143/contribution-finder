@@ -11,9 +11,10 @@
       <!-- Navigation Bar -->
       <nav>
          <ul>
-             <li><a href="#">DASHBOARD</a></li>
-             <li><a href="raffle.html">RAFFLE</a></li>
-             <li><a href="index.html">LOGOUT</a></li>
+            <li><a href="#">DASHBOARD</a></li>
+            <li><a href="raffle.html">RAFFLE</a></li>
+            <li><a href="rules.html">RULES</a></li>
+            <li><a href="index.html">LOGOUT</a></li>
          </ul>
      </nav>
 
@@ -33,17 +34,34 @@
       <div class="container">
          <div class="data-container">
             <table id="dataTable">
+               <h3 style="text-align: center; margin: 5px;" id="displayWelcomeUser"></h3>
                <tbody>
                   <tr>
-                     <th>NAME</th>
-                     <td id="nameUser">
-                        <!-- user NAME will be displayed here -->
+                     <th>HEAD/S AVAILED</th>
+                     <td id="headsData">
+                        <!-- no. of heads availed will be displayed here -->
                      </td>
                   </tr>
                   <tr>
-                     <th>MULTIPLIER</th>
-                     <td id="headsData">
-                        <!-- NO. oF Multiplier data will be displayed here -->
+                     <th>TARGET CONTRIBUTION</th>
+                     <td id="targetContribution">
+                        <!-- target amount contribution will be displayed here -->
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+
+      <div class="container">
+         <div class="data-container">
+            <table id="dataTable">
+               <h3 style="text-align: center; margin: 5px;">YOUR STATS</h3>
+               <tbody>
+                  <tr>
+                     <th>DIVIDEND POINT/S</th>
+                     <td id="dividend-points">
+                        <!-- NO. oF dividend points data will be displayed here -->
                      </td>
                   </tr>
                   <tr>
@@ -74,6 +92,7 @@
             </table>
          </div>
       </div>
+      
       <div class="calendar">
          <div class="calendar-header">
              <button id="prevMonth">Prev</button>
