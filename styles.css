@@ -205,3 +205,21 @@ ul {
     from {transform: translateY(-100%);}
     to {transform: translateY(0);}
 }
+
+/* Add these styles to your styles.css file */
+
+.file-container {
+    text-align: center;
+}
+
+.file-item {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.file-item video,
+.file-item img {
+    width: 200px;
+    height: auto;
+}
