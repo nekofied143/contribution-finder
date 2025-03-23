@@ -7,7 +7,6 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    
     <!-- Navigation Bar -->
     <nav>
         <ul>
@@ -36,8 +35,18 @@
             </table>
         </div>
     </div>
-    <div class="raffle-announcement" style="text-align: center;">
-        <h1 id="raffleMessage"></h1>
+
+    <!-- Raffle Announcement Modal -->
+    <div class="raffle-modal" id="raffleModal">
+        <div class="raffle-modal-content">
+            <span class="close" id="closeRaffle">&times;</span>
+            <div class="h2-background-color">
+                <h2>Raffle Announcement</h2>
+            </div>
+            <div id="raffleMessage" style="text-align: center; font-size: large; color: cornflowerblue;">
+                <!-- Message will be dynamically added here -->
+            </div>
+        </div>
     </div>
 
     <script src="raffle.js"></script>
